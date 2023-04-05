@@ -1,0 +1,48 @@
+/*_shop MOBILE FIRST*/
+/* SHOP */
+.titleshop{
+    letter-spacing: 0;
+    margin: 30px;
+    padding-top: 20px;
+    padding-left: 0;
+    display: block;
+    text-align: center;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hijo{
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prod{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.titleart{
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 20px;
+    word-spacing: 0;
+    letter-spacing: 0;
+    padding-top: 15px;
+}
+
+.art{
+    font-size: 15px;
+    font-weight: lighter;
+}

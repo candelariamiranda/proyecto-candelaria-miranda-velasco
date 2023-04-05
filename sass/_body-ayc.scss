@@ -1,0 +1,68 @@
+/*_body-ayc MOBILE FIRST*/
+/* APRENDE CON NOSOTROS */
+.flexacn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1acn{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 0 25px;
+    text-align: center;
+    background-image: linear-gradient(orange, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hvv1{
+    margin-top: 40px;
+}
+
+.pv{
+    font-size: 15px;
+    margin: 40px 20px 120px 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+/*body-ayc TABLET min1024*/
+@media screen and (min-width: 1024px){
+    /* APRENDE CON NOSOTROS */
+    .h1acn{
+    margin-bottom: 40px;
+    padding: 0;
+    }
+    .hvv1{
+    margin: 40px 15px 15px 0;
+    }
+    .pv{
+    font-size: 18px;
+    margin: 40px 120px 120px 120px;
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+}
+
+/*body-ayc DESKTOP min1301*/
+@media screen and (min-width: 1301px){
+    /* APRENDE CON NOSOTROS */
+    .h1acn{
+        margin-bottom: 40px;
+        padding: 0;
+        display: flex;
+    }
+    .hvv1{
+        margin-top: 40px;
+    }
+    .pv{
+        font-size: 18px;
+        margin: 40px 120px 120px 120px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}

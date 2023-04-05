@@ -1,0 +1,12 @@
+/*_header MOBILE FIRST*/
+header{
+    padding: 15px;
+    background-color: $colorhv;
+}
+
+/*header DESKTOP min1301*/
+@media screen and (min-width: 1301px){
+    header{
+        padding: 20px;
+    }
+}

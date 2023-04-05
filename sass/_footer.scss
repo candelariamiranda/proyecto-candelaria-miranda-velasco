@@ -1,0 +1,97 @@
+/*_footer MOBILE FIRST*/
+/* FOOTER */
+footer{
+    padding: 40px;
+    background-color: $colorhv;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.articleFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.noFormH3{
+    margin-top: 10px;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+.footWord{
+    font-size: 10px;
+    color: white;
+}
+
+/*footer TABLET min1024*/
+@media screen and (min-width: 1024px){
+    /* FOOTER */
+    .articleFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .icon{
+        width: 32px;
+        height: 32px;
+    }
+    .footWord{
+        font-size: 15px;
+    }
+}
+
+/*footer DESKTOP min1301*/
+@media screen and (min-width: 1301px){
+    /* FOOTER */
+    .icon{
+        width: 36px;
+        height: 36px;
+    }
+    .articleFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .noForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footWord{
+        font-size: 20px;
+    }
+    .footWord2{
+        letter-spacing: 0;
+        word-spacing: 3px;
+    }
+}
