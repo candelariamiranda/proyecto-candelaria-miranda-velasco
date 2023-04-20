@@ -28,12 +28,36 @@ footer{
 }
 
 .form{
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
+    align-items: center;
 }
 
 .footWord{
     font-size: 10px;
     color: white;
+}
+
+.inpFoot{
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 200px;
+}
+
+.botFoot{
+    width: 100px;
+    height: 30px;
+    margin-top: 7px;
+    border-radius: 4px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+    font-size: 15px;
+    padding: 3px 12px;
+    cursor: pointer;
 }
 
 /*footer TABLET min1024*/

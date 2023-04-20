@@ -10,5 +10,14 @@
     margin: 40px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 350px;
+    margin-bottom: 270px;
+}
+
+/*body-qs DESKTOP min1301*/
+@media screen and (min-width: 1301px){
+    .qs{
+        margin: 40px 260px 300px 260px;
+        word-spacing: normal;
+        letter-spacing: 3px;
+    }
 }
